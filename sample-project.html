@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+-->
+<style>
+    .red-text {
+color: red;
+    }
+    p {
+        font-size: 16px;
+    }
+    p {
+        font-family: monospace;
+    }
+    h2 {
+        font-family: Lobster, monospace;
+    }
+    .smaller-image {
+        width: 100px;
+    }
+    .thick-green-border {
+        border-color: green;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 10px;
+        border-radius: 50%;
+    }
+    .silver-background {
+        background-color: silver;
+    }
+    #cat-photo-form {
+        background-color: slateblue;
+    }
+    [type='checkbox'] {
+        margin: 10px 0px 15px 0px;
+    }
+</style>
+
+<h2 class="red-text"> CatPhotoApp</h2>
+
+<main>
+<p class="red-text"> View more <a target="_blank" href="#">Cat Photos</p><br>
+
+    <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="Relaxing cat"></a>
+
+     
+    
+    <a href="#footer">Jump to Bottom</a>   
+
+        <p>Meowwww loved it, hated it, loved it, hated it yet spill litter box, scratch at owner, destroy all furniture, especially couch or lay on arms while you're using the keyboard. Missing until dinner time toy mouse squeak roll over. With tail in the air lounge in doorway. Man running from cops stops to pet cats, goes to jail.</p>
+
+        <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet destroy couch.</p>
+<div class="silver-background">
+        <h3><strong>Cats love</strong></h3>
+
+        <ul>
+    
+            <li>Milk</li>
+            <li>Fish</li>
+            <li>Meat</li>
+        </ul>
+    
+        <p>Top three things cats hate:</p>
+        <ol>
+            <li>Matooke</li>
+            <li>Dogs</li>
+            <li>Monkeys</li>
+        </ol>
+    </div>
+        
+            <label for="indoor">
+                <input id="indoor" type="radio" value="indoor" checked name="indoor-outdoor">indoor
+            </label> 
+            <label for="outdoor">
+                <input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor">outdoor
+            </label><br>
+<p>
+            <label for="personality">
+                <input id="personality" type="checkbox" value="personality" checked name="personality-loving">Personality</label>
+
+                <label for="loving">
+                    <input id="loving" type="checkbox" value="loving" name="personality-loving">loving</label>
+
+                    <p><form [attr='checkbox'] id="cat-photo-form" action="/submit-cat-photo">
+                        <input type="text" placeholder="Cat photo URL" required>
+                        <button type="submit">Submit</button></p>
+    
+        </form>
+
+</main>
+
+<footer id="footer">Copyright Cat Photo App</footer>
